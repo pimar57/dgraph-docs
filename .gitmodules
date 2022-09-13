@@ -1,3 +1,6 @@
 [submodule "badger_docs"]
 	path = badger_docs
 	url = https://github.com/dgraph-io/badger-doc-theme.git
+[submodule "cloud_docs"]
+	path = cloud_docs
+	url = https://github.com/dgraph-io/cloud-docs.git
