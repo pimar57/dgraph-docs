@@ -1,0 +1,3 @@
+[submodule "badger_docs"]
+	path = badger_docs
+	url = https://github.com/dgraph-io/badger-doc-theme.git
