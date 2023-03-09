@@ -78,7 +78,7 @@ Database experts can focus on the data, schema and indexes, without maintaining 
 
  - **Shared Instance**: Dgraph Cloud with [shared instances](https://dgraph.io/graphql) is a
 fully-managed graph database service that lets you focus on building apps, not
-managing infrastructure. This is a fast and easy way to get started with GraphQL, and does not require any graph database knowledge to start and run.
+managing infrastructure. This is a fast and easy way to get started with GraphQL, and does not require any graph database knowledge to start.
 
     Shared instances run in a common database using Dgraph multi-tenancy. Your data is protected but you share resources and will have limited scale.
 
