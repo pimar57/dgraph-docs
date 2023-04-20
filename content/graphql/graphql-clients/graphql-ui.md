@@ -1,11 +1,11 @@
 +++
-title = "UI client libraries"
+title = "Client libraries"
 description = "Dgraph"
 weight = 3
 [menu.main]
     parent = "graphql-clients"
     identifier = "graphql-clients-ui"
-    name = "UI client libraries"
+    name = "Client libraries"
 +++
 
 
@@ -15,7 +15,7 @@ As Dgraph serves a [spec-compliant GraphQL](https://graphql.github.io/graphql-sp
 
 Here is a not limited list of popular GraphQL UI clients that you can use with Dgraph to build applications:
 - [graphql-request](https://github.com/jasonkuhrt/graphql-request)
-- [URQL](https://github.com/urql-graphql/urql])
+- [URQL](https://github.com/urql-graphql/urql)
 - [Apollo client](https://github.com/apollographql/apollo-client)
 
 

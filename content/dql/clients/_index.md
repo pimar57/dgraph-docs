@@ -11,7 +11,7 @@ aliases = ["/clients"]
 
 Dgraph client libraries allow you to run DQL transactions, queries and mutations in various programming languages.
 
-If you are in interested in clients for GraphQL endpoint, please refer to [GraphQL clients]({{< relref "graphql-clients">}}) section.
+If you are interested in clients for GraphQL endpoint, please refer to [GraphQL clients]({{< relref "graphql-clients">}}) section.
 
 
 Go, python, Java, C# and JavaScript clients are using **[gRPC](http://www.grpc.io/):** protocol and [Protocol
@@ -23,7 +23,7 @@ A JavaScript client  using **HTTP:** is also available.
 
 
 It's possible to interface with Dgraph directly via gRPC or HTTP. However, if a
-client library exists for you language, this will be an easier option.
+client library exists for your language, that will be an easier option.
 
 {{% notice "tip" %}}
 For multi-node setups, predicates are assigned to the group that first sees that
@@ -31,9 +31,11 @@ predicate. Dgraph also automatically moves predicate data to different groups in
 order to balance predicate distribution. This occurs automatically every 10
 minutes. It's possible for clients to aid this process by communicating with all
 Dgraph instances. For the Go client, this means passing in one
-`*grpc.ClientConn` per Dgraph instance. Mutations will be made in a round robin
-fashion, resulting in an initially semi random predicate distribution.
+`*grpc.ClientConn` per Dgraph instance, or routing traffic through a load balancer.
+Mutations will be made in a round robin
+fashion, resulting in a semi-random initial predicate distribution.
 {{% /notice %}}
+
 
 ### Transactions
 
@@ -58,4 +60,3 @@ When a transaction is aborted, all its changes are discarded.  Transactions can 
 
 
 ### In this section
-
