@@ -87,7 +87,7 @@ type Person {
     name: String @search(by: [hash])
     ...
 ```
-Is simply translated into a prediate index specification in the Dgraph schema:
+Is simply translated into a predicate index specification in the Dgraph schema:
 ```
 Person.name: string @index(hash) .
 ```
